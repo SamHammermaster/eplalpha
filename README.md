@@ -15,9 +15,18 @@ The **v5.0 6-Pillar Alpha Formula** is net positive in **10 out of 10 seasons (`
 
 ## Clone & open as a Cursor workspace
 
-This project is published at [https://github.com/SamHammermaster/eplalpha](https://github.com/SamHammermaster/eplalpha).
+Target home: [https://github.com/SamHammermaster/eplalpha](https://github.com/SamHammermaster/eplalpha) (create this empty repo on GitHub, then push — see below).
 
-**On your machine:**
+**Pull the code now (Origin — always available):**
+
+```bash
+git clone https://origin.cursor.com/git/sam-hammermaster/tmp-41514f5d6003ffe1.git eplalpha
+cd eplalpha
+# main already has the full project; optional feature branch:
+# git checkout cursor/epl-betting-prediction-engine-64c2
+```
+
+**After GitHub repo exists:**
 
 ```bash
 git clone https://github.com/SamHammermaster/eplalpha.git
