@@ -13,6 +13,33 @@ The **v5.0 6-Pillar Alpha Formula** is net positive in **10 out of 10 seasons (`
 | **Pinnacle Sharp (`PSH/D/A`)** | **10 / 10 seasons positive** (`915` bets, **+114.21u**) | **11 / 11 seasons positive** (`1,034` bets, **+129.18u**) | **+12.49%** | $t = +2.76$ ($p = 0.0029$) |
 | **Market Best Price (`MaxH/D/A`)** | **10 / 10 seasons positive** (`1,326` bets, **+156.30u**) | **11 / 11 seasons positive** (`1,495` bets, **+173.33u**) | **+11.59%** | $t = +3.12$ ($p = 0.0009$) |
 
+## Clone & open as a Cursor workspace
+
+This project is published at [https://github.com/SamHammermaster/eplalpha](https://github.com/SamHammermaster/eplalpha).
+
+**On your machine:**
+
+```bash
+git clone https://github.com/SamHammermaster/eplalpha.git
+cd eplalpha
+```
+
+Open the multi-root workspace in Cursor:
+
+- **File → Open Workspace from File…** → choose `eplalpha.code-workspace`, or
+- From the repo root: `cursor eplalpha.code-workspace` (Cursor CLI)
+
+The workspace splits the repo into **EPL Alpha (root)**, **Engine (Python)**, **Dashboard (Next.js)**, and **Data**.
+
+If the GitHub repo is empty, push this codebase first (from a machine with GitHub access):
+
+```bash
+git remote add github https://github.com/SamHammermaster/eplalpha.git
+git push -u github HEAD:main
+```
+
+The full project currently lives on branch `cursor/epl-betting-prediction-engine-64c2` in the Cursor cloud agent mirror until you push to GitHub.
+
 ## Running the Project Locally
 
 ### 1. Re-run the Python Data Pipeline & Walk-Forward Backtest Engine

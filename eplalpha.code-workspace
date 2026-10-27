@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "name": "EPL Alpha",
+      "path": "."
+    },
+    {
+      "name": "Engine (Python)",
+      "path": "engine"
+    },
+    {
+      "name": "Dashboard (Next.js)",
+      "path": "src"
+    },
+    {
+      "name": "Data",
+      "path": "data"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.analysis.extraPaths": ["engine"],
+    "files.exclude": {
+      "**/.next": true,
+      "**/node_modules": true,
+      "**/__pycache__": true,
+      "data/raw/fpl": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.next": true,
+      "data/raw": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "dbaeumer.vscode-eslint"
+    ]
+  }
+}
